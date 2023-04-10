@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1681163114 source:d:\code blocks - cpp projects\doubly linked list\main.cpp
+	<iostream>
+	"Doubly_Linked_list.H"
+
+1681081504 source:d:\code blocks - cpp projects\doubly linked list\node.cpp
+	"Node.H"
+
+1681079605 d:\code blocks - cpp projects\doubly linked list\node.h
+	<bits/stdc++.h>
+
+1681138244 source:d:\code blocks - cpp projects\doubly linked list\doubly_node.cpp
+	"Doubly_Node.H"
+
+1681131946 d:\code blocks - cpp projects\doubly linked list\doubly_node.h
+	<bits/stdc++.h>
+
+1681163082 source:d:\code blocks - cpp projects\doubly linked list\doubly_linked_list.cpp
+	"Doubly_Linked_list.H"
+
+1681163005 d:\code blocks - cpp projects\doubly linked list\doubly_linked_list.h
+	"Doubly_Node.H"
+
