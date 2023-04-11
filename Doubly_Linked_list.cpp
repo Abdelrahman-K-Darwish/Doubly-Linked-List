@@ -28,7 +28,6 @@ Doubly_Linked_list<T>::Doubly_Linked_list(const Doubly_Linked_list & dll)
     Doubly_Node<T>*temp=dll.Head;
     while(temp!=NULL)
     {
-
         this->Insert(temp->get_value());
         temp=temp->get_next();
     }
@@ -257,6 +256,9 @@ bool Doubly_Linked_list<T>:: remove(T val)
 {
 
     Doubly_Node<T>*temp=Head;
+    if(temp==NULL){
+        return false;
+    }
     if(temp->get_value()==val)
     {
         Head=Head->get_next();
@@ -295,7 +297,9 @@ bool Doubly_Linked_list<T>:: remove(T val)
 template <class T>
 bool Doubly_Linked_list<T>::  removeAll(T val){
 
-    while(this->remove(val));
+    while(this->remove(val)){
+        cout<<"LOL"<<endl;
+    }
     return true;
 }
 
